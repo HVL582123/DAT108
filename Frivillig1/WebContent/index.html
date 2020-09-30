@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Temperaturomregning</title>
+</head>
+<body>
+	<form action="regnom" method="post">
+		<fieldset>
+			<legend>Temperaturomregning</legend>
+			<p>
+				Temperatur: <input type="text" name="temperatur" />
+			</p>
+			<p>
+				<input type="radio" name="kalkuler" value="CelsiusFahrenheit" />
+				Celsius til Fahrenheit<br /> 
+				<input type="radio" name="kalkuler"
+					value="FahrenheitCelsius" />Fahrenheit til Celsius<br />
+			</p>
+			<p>
+				<input type="submit" value="Regn om" />
+			</p>
+		</fieldset>
+	</form>
+</body>
+</html>
